@@ -10,6 +10,3 @@ class Tank(Character):
         Character.__init__(self, name, health, damage, defence)
         self.defence_multiplier = defence_multiplier
         self.chet_limit = chet_limit
-
-        # def defence(self):
-            # final_damage =
