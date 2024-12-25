@@ -21,7 +21,7 @@ while True:
 
         print(f"{a} / {b} = {a / b}")
     except ValueError:
-        print("neeeeet.")
+        print("net.")
     except ZeroDivisionError:
         print("no.")
     except Exception as error:

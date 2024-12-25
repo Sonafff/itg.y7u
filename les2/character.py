@@ -12,9 +12,9 @@ class Character:
 
     def print_stats(self):
         print(f" -< {self.name} >- ")
-        print(f" Здоров\'я: {self.health}")
-        print(f" Шкода: {self.damage}")
-        print(f" Захист: {self.defence}")
+        print(f" HP: {self.health}")
+        print(f" DMG: {self.damage}")
+        print(f" DEF: {self.defence}")
 
     def take_damage(self, damage):
         self.health = max(self.health - damage, 0)

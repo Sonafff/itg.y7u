@@ -1,10 +1,11 @@
 from les3.berserk import Berserk
+from assassin import Assassin
 from character import Character
 
-player1 = Character("Lizo", 120, 7, 0)
+player1 = Character("A", 120, 7, 0)
 player1.print_stats()
 
-player2 = Berserk("Kriss", 100, 10, 0)
+player2 = Assassin("B", 100, 10, 0)
 player2.print_stats()
 print("\n")
 
